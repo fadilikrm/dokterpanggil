@@ -261,7 +261,6 @@ a:focus {
 .hero .hero-image {
     position: relative;
     text-align: center;
-
     padding-bottom: 75px;
 }
 
@@ -363,6 +362,9 @@ a:focus {
     .hero .row {
         display: flex;
         flex-direction: column-reverse;
+    }
+    .hero .hero-image{
+        padding-bottom: 20px;
     }
     .hero {
         padding-top: 60px;
