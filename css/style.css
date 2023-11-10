@@ -38,6 +38,10 @@ a:focus {
     max-width: 1366px;
 }
 
+blockquote {
+    margin-left: 20px; 
+}
+
 .btn {
     padding: 12px 25px;
     font-size: 14px;
@@ -503,6 +507,8 @@ a:focus {
     position: relative;
     width: 100%;
     margin: -45px 0 45px 0;
+    align-items: center;
+    justify-content: center;
 }
 
 .about .col-lg-6 {
@@ -775,7 +781,7 @@ a:focus {
 }
 
 .service .service-item:hover {
-    box-shadow: inset 800px 0 0 0 #EF233C;
+    box-shadow: inset 800px 0 0 0 #ffffff;
 }
 
 .service .service-icon {
@@ -821,7 +827,7 @@ a:focus {
 
 .service .service-item:hover .service-text h3,
 .service .service-item:hover .service-text p {
-    color: #ffffff;
+    color: #000000;
 }
 
 @media (max-width: 575.98px) {
@@ -1246,9 +1252,10 @@ a:focus {
 /*******************************/
 .testimonial {
     position: relative;
-    margin: 45px 0;
-    padding: 90px 0;
+    margin: 50px auto;
+    padding: 50px 0;
     background: #EF233C;
+    max-width: 1110px;
 }
 
 .testimonial .container {
@@ -1336,14 +1343,9 @@ a:focus {
 /*******************************/
 .contact {
     position: relative;
-    width: 100%;
-    margin: 45px 0;
+    max-width: 1110px;
     background: #EF233C;
-}
-
-.contact .container-fluid {
-    background: url(../img/contact.jpg) left center no-repeat;
-    background-size: contain;
+    margin: 0 auto;
 }
 
 .contact .contact-form {
